@@ -1,0 +1,23 @@
+{
+  "name": "magicthegathering-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sami Tuppurainen",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.6.2",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
